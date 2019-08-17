@@ -1,6 +1,6 @@
 cd /root/git_pro/vue-hello-world && git pull # git pull project
 
-npm run build # build
+npm i && npm run build # build
 
 docker build -t vue-hello:latest . # build image
 

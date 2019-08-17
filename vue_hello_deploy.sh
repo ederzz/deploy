@@ -11,4 +11,4 @@ then
   docker rm $vue_hello_container_id -f # delete container
 fi
 
-docker run --name vue-hello -p 8080:80 -d vue-hello:latest # run container
+docker run --name vue-hello -p 80:80 -d vue-hello:latest # run container
